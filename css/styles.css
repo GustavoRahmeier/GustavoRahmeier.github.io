@@ -1,88 +1,115 @@
+ 
 body {
-    font-family: 'Bricolage Grotesque', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(90deg, #2c9db2 100%,#00a419 100%, #0e827f 100%);
+    margin: 0px;
+    background: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/lMqDAU.jpg); 
 }
 
-.title {
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: background-color 0.7s;
 
-    font-family: 'Edu TAS Beginner', cursive;
-    font-size: 60px;
-    height: 50px;
+}
+
+
+
+.card1 {
+    background-color: rgb(24, 24, 24);
+    padding: 30px 150px;
+    border-radius: 10px;
+    transition: 0.4s;
+    color: rgb(0, 255, 21);
+    width: 41%;
+    text-align: center;
+    box-shadow: 3px 3px 2px 2px rgba(102, 0, 255, 0.507);
+}
+
+.card1:hover {
+    background-color: rgb(11, 0, 90);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 2px 2px rgba(68, 255, 0, 0.507);
+
+
+}
+
+.card2 {
+    background-color: rgb(24, 24, 24);
+    padding: 30px 150px;
+    border-radius: 10px;
+    transition: 0.4s;
+    color: rgb(0, 255, 21);
+    width: 41%;
+    text-align: center;
+    box-shadow: 3px 3px 2px 2px rgba(102, 0, 255, 0.507);
+
+}
+
+.card2:hover {
+    background-color: rgb(11, 0, 90);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 2px 2px rgba(68, 255, 0, 0.507);
+
+}
+
+.card3 {
+    background-color: rgb(24, 24, 24);
+    padding: 30px 150px;
+    transition: 0.4s;
+    border-radius: 10px;
+    color: rgb(0, 255, 21);
+    width: 41%;
+    text-align: center;
+    box-shadow: 3px 3px 2px 2px rgba(102, 0, 255, 0.507);
+
+}
+
+.card3:hover {
+    background-color: rgb(11, 0, 90);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 2px 2px rgba(68, 255, 0, 0.507);
 
 }
 
 header {
-    background: linear-gradient(171deg, rgb(26, 139, 26) 0%, rgb(12, 182, 77)58%, rgb(15, 73, 38) 100%);
+    background: rgb(20, 0, 95);
+    background: linear-gradient(90deg, rgba(21, 0, 95, 0.46) 34%, rgba(9, 0, 186, 1) 71%, rgba(89, 0, 255, 0.504) 100%);
+    height: 100px;
+    display: flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
     font-size: 24px;
-}
-
-header nav {
-    margin-right: 60px;
-}
-
-.logo {
-   
-    margin-left: 60px;
-    width: 120px;
-    height: 120px;
-}
-
-header nav a {
-    text-decoration: none;
-    color: #f8f7f7;
-    padding: 10px;
-}
-
-header nav a.active {
-    color: blue;
-}
-
-.center {
     text-align: center;
-    width: 250px;
+    width: 100%;
 }
 
-header nav a:hover {
-    color: rgb(5, 5, 5);
-}
 
-.right{
-    display: flex;
-    margin-right: auto;
-}
 
-main {
-    background: linear-gradient(171deg, rgb(255, 102, 0) 0%, rgb(141, 0, 0) 58%, rgb(33, 72, 202) 100%);
-
-    display: flex;
-    justify-content: space-around;
+footer {
+    background: rgba(21, 0, 95, 0.585);
+    background: linear-gradient(90deg, rgba(21, 0, 95, 0.605) 34%, rgba(9, 0, 186, 1) 71%, rgba(89, 0, 255, 0.458) 100%);
+    height: 100%;
+    height: 60px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    height: 600px;
-    padding: 10px;
-    text-align: center;
-}
-
-.blocks {
-    width: 312px;
-    height: 312px;
-}
-
-.center {
-    text-align: center;
-}
-
-.textos {
     display: flex;
-    justify-content: space-around;
-}
-
-.texto {
-    width: 312px;
-    color: white;
+    color: rgb(241, 241, 241);
+    width: 100%;
 }
